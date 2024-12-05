@@ -3,10 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reflect Line - A leading fashion brand in Nigeria</title>
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -30,7 +38,7 @@
               <li class="nav-items"><a href="about.html">About Us</a></li>
               <li class="nav-items"><a href="shop.html">Shop</a></li>
               <li class="nav-items"><a href="blog.html">Blog</a></li>
-              <li class="nav-items"><a href="contact.html">Contact Us</a></li>
+              <li class="nav-items active-menu-page"><a href="contact.html">Contact Us</a></li>
             </ul>
             <div class="nav-icons">
               <a href="#"
@@ -49,12 +57,12 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="mobile-menu">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Cart</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="cart.html">Cart</a></li>
           </ul>
           <button id="closeMenu" class="hamburger closeMenu">X</button>
         </div>
@@ -62,17 +70,58 @@
         <div id="overlay"></div>
       </section>
   
+      <section class="page-banner">
+        <div class="container page-banner-container">
+          <h2>#User Login</h2>
+          <p>Login to your admin area...</p>
+          <span class="breadcrumb"><a href="index.html">Home</a> > Login</span>
+        </div>
+      </section>
 
+       <section class="section">
+        <div class="form-container">
+          <div class="tab">
+            <button id="tab-signup">Signup</button>
+            <button id="tab-login">Login</button>
+          </div>
 
-      
-      <!--START HERE 👇👇-->
-      
-      <!-- WRITE YOUR CODES HERE -->
+          <div class="form">
+            <form action="" method="post" class="user-register-form hidden">
+              <div class="form-group">
+                <label class="form-label">Full Name</label>
+                <input type="text" placeholder="Full Name" class="input-field">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" placeholder="Email Address" class="input-field">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Password</label>
+                <input type="password" placeholder="Password" class="input-field">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" class="input-field">
+              </div>
+              <button class="button btn-black btn-large ">Create Account</button> 
+            </form>
+
+            <form action="" method="post" class="user-login-form">
+              <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" placeholder="Email Address" class="input-field">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Password</label>
+                <input type="password" placeholder="Password" class="input-field">
+              </div>
+              <button class="button btn-black btn-large ">Login Now</button> 
+            </form>
+
+          </div>
+        </div>
+       </section>
   
-      <!--END HERE 👆👆-->
-  
-
-
       <!-- BEGIN THE FOOTER SECTION -->
       <footer>
         <div class="footer-container">
@@ -142,6 +191,10 @@
       </footer>
       <!-- END THE FOOTER SECTION -->
   
+  
       <script src="script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.js"></script>
+    <script src="script/slider.js"></script>
+    <script src="reflectlinehome.js"></script>
   </body>
 </html>

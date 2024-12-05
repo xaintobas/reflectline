@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Classic White Shirt",
+    "category": "Shirts",
+    "price": 10000,
+    "image": "img/products/f1.jpg",
+    "id": "c12a3e4b-1234-5678-9abc-1def2gh3ijkl",
+    "url": "products/classic-white-shirt",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellat quisquam laudantium dolore temporibus debitis, sed quaerat aliquam odit molestias?",
+    "longDescription": "Lorem ipsum dolor sit amet, saepe vitae gubergren pro cu, sit eros animal invidunt ei, ex nec munere legere incorrupte. Eum an vocent commodo referrentur, no veniam maiestatis vim. Est verear nusquam delicata id, mea natum movet eripuit at. Eu quot virtute usu, nonumy eruditi suscipit duo et. Nam eu dicta tamquam apeirian, has ei verear periculis vituperatoribus. Est summo nemore ne. Nam ex posse argumentum eloquentiam, saepe similique interpretaris nec ex, ridens suscipit scriptorem ex mel."
+  },
+  {
+    "name": "Blue Denim Jeans",
+    "category": "Jeans",
+    "price": 15000,
+    "image": "img/products/f2.jpg",
+    "id": "d34f5g67-2345-6789-abcd-2efg3hijklm4",
+    "url": "products/blue-denim-jeans",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellat quisquam laudantium dolore temporibus debitis, sed quaerat aliquam odit molestias?",
+    "longDescription": "Lorem ipsum dolor sit amet, saepe vitae gubergren pro cu, sit eros animal invidunt ei, ex nec munere legere incorrupte. Eum an vocent commodo referrentur, no veniam maiestatis vim. Est verear nusquam delicata id, mea natum movet eripuit at. Eu quot virtute usu, nonumy eruditi suscipit duo et. Nam eu dicta tamquam apeirian, has ei verear periculis vituperatoribus. Est summo nemore ne. Nam ex posse argumentum eloquentiam, saepe similique interpretaris nec ex, ridens suscipit scriptorem ex mel."
+  },
+  {
+    "name": "Stylish Sneakers",
+    "category": "Footwear",
+    "price": 20000,
+    "image": "img/products/f3.jpg",
+    "id": "e45h6i78-3456-7890-bcde-3fgh4ijklm56",
+    "url": "products/stylish-sneakers",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellat quisquam laudantium dolore temporibus debitis, sed quaerat aliquam odit molestias?",
+    "longDescription": "Lorem ipsum dolor sit amet, saepe vitae gubergren pro cu, sit eros animal invidunt ei, ex nec munere legere incorrupte. Eum an vocent commodo referrentur, no veniam maiestatis vim. Est verear nusquam delicata id, mea natum movet eripuit at. Eu quot virtute usu, nonumy eruditi suscipit duo et. Nam eu dicta tamquam apeirian, has ei verear periculis vituperatoribus. Est summo nemore ne. Nam ex posse argumentum eloquentiam, saepe similique interpretaris nec ex, ridens suscipit scriptorem ex mel."
+  },
+  {
+    "name": "Black Leather Jacket",
+    "category": "Jackets",
+    "price": 35000,
+    "image": "img/products/f4.jpg",
+    "id": "f56j7k89-4567-8901-cdef-4ghi5jklm678",
+    "url": "products/black-leather-jacket",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellat quisquam laudantium dolore temporibus debitis, sed quaerat aliquam odit molestias?",
+    "longDescription": "Lorem ipsum dolor sit amet, saepe vitae gubergren pro cu, sit eros animal invidunt ei, ex nec munere legere incorrupte. Eum an vocent commodo referrentur, no veniam maiestatis vim. Est verear nusquam delicata id, mea natum movet eripuit at. Eu quot virtute usu, nonumy eruditi suscipit duo et. Nam eu dicta tamquam apeirian, has ei verear periculis vituperatoribus. Est summo nemore ne. Nam ex posse argumentum eloquentiam, saepe similique interpretaris nec ex, ridens suscipit scriptorem ex mel."
+  },
+  {
+    "name": "Summer Maxi Dress",
+    "category": "Dresses",
+    "price": 25000,
+    "image": "img/products/f5.jpg",
+    "id": "g67k8l90-5678-9012-defg-5hij6klm7890",
+    "url": "products/summer-maxi-dress",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellat quisquam laudantium dolore temporibus debitis, sed quaerat aliquam odit molestias?",
+    "longDescription": "Lorem ipsum dolor sit amet, saepe vitae gubergren pro cu, sit eros animal invidunt ei, ex nec munere legere incorrupte. Eum an vocent commodo referrentur, no veniam maiestatis vim. Est verear nusquam delicata id, mea natum movet eripuit at. Eu quot virtute usu, nonumy eruditi suscipit duo et. Nam eu dicta tamquam apeirian, has ei verear periculis vituperatoribus. Est summo nemore ne. Nam ex posse argumentum eloquentiam, saepe similique interpretaris nec ex, ridens suscipit scriptorem ex mel."
+  },
+  {
+    "name": "Trendy Handbag",
+    "category": "Accessories",
+    "price": 18000,
+    "image": "img/products/f6.jpg",
+    "id": "h78l9m01-6789-0123-efgh-6ijk7lm89012",
+    "url": "products/trendy-handbag",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellat quisquam laudantium dolore temporibus debitis, sed quaerat aliquam odit molestias?",
+    "longDescription": "Lorem ipsum dolor sit amet, saepe vitae gubergren pro cu, sit eros animal invidunt ei, ex nec munere legere incorrupte. Eum an vocent commodo referrentur, no veniam maiestatis vim. Est verear nusquam delicata id, mea natum movet eripuit at. Eu quot virtute usu, nonumy eruditi suscipit duo et. Nam eu dicta tamquam apeirian, has ei verear periculis vituperatoribus. Est summo nemore ne. Nam ex posse argumentum eloquentiam, saepe similique interpretaris nec ex, ridens suscipit scriptorem ex mel."
+  }
+]

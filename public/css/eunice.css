@@ -422,6 +422,84 @@ header {
   }
 }
 
+
+/* Contact Section*/
+.image h1{
+    position: absolute;
+    top:3.2em;
+    left:2.7em;
+    font-size:5em;
+    font-family:Impact;
+    text-align:center;
+    color:white;
+    text-shadow:5px 5px 15px black;
+}
+.address-info{
+    margin:15px;
+}
+
+/* FAQ Section*/
+.img_text{    
+    position: absolute;
+    top:2.8em;
+    left:0.3em;
+    font-size:10em;
+    letter-spacing:35px;
+    color:white;
+    text-shadow:5px 5px 15px black;
+}
+.faq_intro{
+    margin:15px;
+}
+.faq_intro h4{
+    margin-bottom:10px;
+}
+.faq-intro p{
+    margin-bottom:10px;
+}
+.faq-container {
+    max-width: 600px;
+    margin: 15px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+}
+
+.faq-question span {
+  display: inline-block;
+}
+
+.faq-answer {
+    padding: 10px 0;
+   display: none;
+  /*  color: #555;*/
+    font-size: 14px;
+}
+
+.dropdown-icon {
+    font-size: 12px;
+    color: #000;
+    transition: transform 0.3s;
+}
+
+.faq-question.active .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+
 /* START THE FOOTER SECTION */
 
 footer {

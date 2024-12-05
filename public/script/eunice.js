@@ -19,3 +19,18 @@ closeMenu.addEventListener("click", closeMobileMenu);
 hamburgerIcon.addEventListener("click", openMobileMenu);
 
 // START HERE 👇👇
+
+// FAQ Section
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+
+        if (answer.style.display === 'block') {
+            answer.style.display = 'none';
+            question.classList.remove('active');
+        } else {
+            answer.style.display = 'block';
+            question.classList.add('active');
+        }
+    });
+});
