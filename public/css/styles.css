@@ -51,7 +51,7 @@ li {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 
 .section {
@@ -471,6 +471,10 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.hero-section .container {
+  padding: 0 1rem;
 }
 
 .glide__slide {
