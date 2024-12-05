@@ -169,6 +169,7 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  padding: 0.5rem 0;
 }
 
 h3 {
@@ -180,7 +181,8 @@ h4 {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  line-height: 1.7;
 }
 
 @media screen and (max-width: 768px) {
@@ -201,7 +203,7 @@ p {
   }
 
   p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -211,6 +213,7 @@ p {
   font-weight: 700;
   letter-spacing: 0.3rem;
   color: var(--color-sub-heading);
+  padding: 1rem 0;
 }
 
 .attribution a {
@@ -1149,7 +1152,7 @@ footer {
 }
 
 .banner-container h2 {
-  font-size: 7rem;
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -1169,10 +1172,16 @@ footer {
 
 /* About Us Page */
 
-.experience-container {
+.experience-container,
+.about-us-container {
   justify-content: space-between;
   padding: 5rem 2rem;
   column-gap: 5rem;
+}
+
+.experience-text p,
+.about-us-text p {
+  text-align: justify;
 }
 
 .about-us-image,
@@ -1236,6 +1245,27 @@ footer {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .experience-container {
+    row-gap: 5rem;
+    flex-direction: column-reverse;
+  }
+
+  .about-us-container {
+    flex-direction: column-reverse;
+  }
+
+  .about-us-image,
+  .about-us-text,
+  .experience-levels,
+  .experience-text {
+    width: 100%;
+  }
+
+  .about-us-text {
+    padding-top: 3rem;
+  }
+}
 /* Contact Us Page */
 
 .contact-container {
